@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Mono',monospace;
+    background: rgb(245,87,137);
+    background: radial-gradient(circle, rgba(245,87,137,1) 42%, rgba(112,35,74,1) 100%);
+}
+  
+.container {
+    margin: 30px 0 80px;
+}
+
+.page-title{
+    background-color: #f8bbd0;
+    width: 400px;
+    border-radius: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.page-title h1{
+    color:#f06292;
+    padding: 5px;
+    font-size: 1.875rem;
+    text-transform: uppercase;
+}
+
+.container-form .page-subtitle p{
+    text-align: center;
+    color: #f06292;
+    font-size: 1.25rem;
+    padding: 15px 0 20px;
+}
+
+.resultado-final p{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #787171;
+}
+
+.alura-logo a img{
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.img-imersao{
+    background-color: #f48fb1;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.img-imersao img{
+    width: 100%;
+    max-width: 200px;
+}
+
+/* formulario notas */
+
+.container-form{
+    width: calc(100% - 30px);
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8bbd0;
+    border-radius: 30px;
+}
+
+form{
+    width: 100%;
+}
+
+label{
+    margin-top: 15px;
+}
+
+label, input{
+    display: block;
+    color: #787171;
+    text-align: center;
+}
+
+input{
+    width: 100%;
+    border: 1px solid #ec407a;
+    border-radius: 20px;
+    background-color: #f06292;
+    outline: unset;
+    margin-top: 10px;
+    height: 30px;
+    padding: 5px;
+    color: white;
+}
+
+button{
+    display: block;
+    margin: 20px auto;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 15px;
+    border: unset;
+    background-color: #f06292;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #f48fb1;
+}
